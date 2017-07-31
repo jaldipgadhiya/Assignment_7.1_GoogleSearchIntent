@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2FAF84">
+
+
+    <EditText
+        android:id="@+id/txtSearchGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Text"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:padding="5dp"
+        android:layout_marginTop="150dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSearchGoogle"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="SEARCH"
+        android:onClick="searchGoogle"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#43C398"/>
+</RelativeLayout>
